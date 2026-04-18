@@ -48,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     transition: background 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
 }
 
 .app-container {
@@ -168,6 +169,7 @@ main {
     border-radius: 1rem;
     padding: 1.5rem;
     box-shadow: var(--glass-shadow);
+    min-width: 0;
 }
 
 /* Chart Container */
